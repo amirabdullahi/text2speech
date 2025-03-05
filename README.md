@@ -38,7 +38,8 @@ The audio will be saved as "op.mp3" and automatically played
 Code Examples
 Converting User Input To Speech
 This GUI application allows users to type text and convert it to speech:
-pythonCopyfrom gtts import gTTS
+
+from gtts import gTTS
 import os
 from tkinter import *
 
@@ -63,7 +64,8 @@ root.mainloop()
 
 Converting a String to Speech
 For simple string-to-speech conversion:
-pythonCopyfrom gtts import gTTS
+
+from gtts import gTTS
 import os
 
 text = "LOL this is really funny"
@@ -73,7 +75,8 @@ os.system("start output.mp3")
 
 Converting a Text File to Speech
 For reading and converting the contents of a text file:
-pythonCopyfrom gtts import gTTS
+
+from gtts import gTTS
 import os
 
 text = open('demo.txt', 'r').read()
